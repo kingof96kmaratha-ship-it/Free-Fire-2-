@@ -1,0 +1,85 @@
+GAME TYPE:
+Mobile-optimized third-person shooter with Battle Royale (BR) and Clash Squad (CS) modes.
+Inspired by fast-paced mobile shooters like Free Fire-style gameplay but fully original.
+
+MAP SYSTEM (BERMUDA-STYLE):
+Single large island map inspired by Bermuda layout.
+Named locations:
+Shipyard, Peak (highest elevation),
+Mars Electric, Graveyard,
+Bimasakti Strip, Pochinok,
+Sentosa (SE island),
+Factory, Rim Nam Village,
+Clock Tower (West),
+Mill, Cape Town, Hangar,
+Kota Tua, Keraton, Bullseye.
+
+BR MODE GAMEPLAY:
+- Plane-based spawn system with jump points
+- 50 players per match
+- Safe zone with timed shrinking circles
+- Loot spawn tables (weapons, ammo, armor, medkits)
+- Vehicles: bikes, jeeps, boats
+- Full collision & cover (buildings, walls, rocks)
+- Mobile optimization (30–60 FPS, low-poly assets)
+
+CLASH SQUAD (CS) MODE:
+- 4v4 fast-paced round-based mode
+- Each round auto-selects ONE location from the Bermuda map
+- Location rotates every round automatically
+- Buy system with in-game currency
+- Ranked system (Bronze → Heroic-style tiers)
+- Best of 7 rounds format
+
+CS LOCATION ROTATION LOGIC:
+At the start of each round:
+Randomly select one predefined map location
+Lock playable boundary to that location only
+Spawn teams at opposite sides with equal cover
+After round ends → auto-rotate to a new location
+
+CHARACTER SYSTEM:
+Each character has:
+- Active ability (cooldown-based)
+- Passive skill
+- Sub-skills (movement / combat / survival)
+- Stats: Speed, HP bonus, Ability strength
+
+Example Character:
+Name: AEGIS
+Role: Assault Defender
+Active Ability: Energy Shield (temporary frontal damage block)
+Passive: Faster reload when HP below 40%
+Sub-skills:
+- +5% sprint speed
+- +10% SMG accuracy
+- +15% medkit speed
+
+WEAPONS:
+- AR, SMG, Shotgun, Sniper, Pistol
+- Recoil + spread optimized for mobile
+- Attachments: scope, grip, magazine
+
+UI & UX:
+- Simple HUD
+- Quick-buy menu (CS)
+- Mini-map with safe zone indicators
+
+OPTIMIZATION:
+- Low-poly models
+- Level of Detail (LOD)
+- Asset streaming
+- Touch-friendly controls
+
+GOAL:
+Create a playable prototype that feels like a competitive mobile shooter with BR + CS modes on a Bermuda-style map, but with original assets, name, and identity.
+Assets/
+ ├── Scripts/
+ │   ├── Player/
+ │   ├── Weapons/
+ │   ├── GameModes/
+ │   ├── ZoneSystem/
+ ├── Maps/
+ ├── Characters/
+ ├── UI/
+ ├── Prefabs/
