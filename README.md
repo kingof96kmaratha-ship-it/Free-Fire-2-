@@ -11,3 +11,7 @@ Features:
 - Custom Map
 
 Download link niche diya hai 👇
+📦 Download (v1.0):
+https://github.com/kingof96k/Free-Fire-2-/releases/tag/v1.0
+⚠️ This is an original fan-made / design blueprint project.
+Not affiliated with Garena.
